@@ -1,0 +1,179 @@
+[
+  {
+    "name": "building1",
+    "street": "street1",
+    "number": 1,
+    "zipCode": 1,
+    "floors": [
+      {
+        "number": 1,
+        "doors": [
+          {
+            "number": 1,
+            "owner": "owner1"
+          },
+          {
+            "number": 2,
+            "owner": "owner2"
+          },
+          {
+            "number": 3,
+            "owner": "owner3"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "doors": [
+          {
+            "number": 1,
+            "owner": "owner4"
+          },
+          {
+            "number": 2,
+            "owner": "owner5"
+          },
+          {
+            "number": 3,
+            "owner": "owner6"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "doors": [
+          {
+            "number": 1,
+            "owner": "owner7"
+          },
+          {
+            "number": 2,
+            "owner": "owner8"
+          },
+          {
+            "number": 3,
+            "owner": "owner9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "building2",
+    "street": "street2",
+    "number": 2,
+    "zipCode": 2,
+    "floors": [
+      {
+        "number": 1,
+        "doors": [
+          {
+            "number": 1,
+            "owner": "owner1"
+          },
+          {
+            "number": 2,
+            "owner": "owner2"
+          },
+          {
+            "number": 3,
+            "owner": "owner3"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "doors": [
+          {
+            "number": 1,
+            "owner": "owner4"
+          },
+          {
+            "number": 2,
+            "owner": "owner5"
+          },
+          {
+            "number": 3,
+            "owner": "owner6"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "doors": [
+          {
+            "number": 1,
+            "owner": "owner7"
+          },
+          {
+            "number": 2,
+            "owner": "owner8"
+          },
+          {
+            "number": 3,
+            "owner": "owner9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "building3",
+    "street": "street3",
+    "number": 3,
+    "zipCode": 3,
+    "floors": [
+      {
+        "number": 1,
+        "doors": [
+          {
+            "number": 1,
+            "owner": "owner1"
+          },
+          {
+            "number": 2,
+            "owner": "owner2"
+          },
+          {
+            "number": 3,
+            "owner": "owner3"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "doors": [
+          {
+            "number": 1,
+            "owner": "owner4"
+          },
+          {
+            "number": 2,
+            "owner": "owner5"
+          },
+          {
+            "number": 3,
+            "owner": "owner6"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "doors": [
+          {
+            "number": 1,
+            "owner": "owner7"
+          },
+          {
+            "number": 2,
+            "owner": "owner8"
+          },
+          {
+            "number": 3,
+            "owner": "owner9"
+          }
+        ]
+      }
+    ]
+  }
+]

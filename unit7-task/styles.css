@@ -1,0 +1,13 @@
+#users-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  text-align: center;
+}
+
+.user-table {
+  border: 1px solid black;
+  margin: 30px;
+  text-align: center;
+  width: fit-content;
+  background-color: aquamarine;
+}

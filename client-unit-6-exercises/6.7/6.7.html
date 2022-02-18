@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>6.7</title>
+  </head>
+  <body>
+    <h1>exercise 6.7</h1>
+    <h3>CREATE BUILDING:</h3>
+    <input
+      id="building-name-input"
+      type="text"
+      placeholder="Name of building..."
+    />
+    <input id="street-input" type="text" placeholder="Street" />
+    <input id="number-input" type="text" placeholder="Number" />
+    <input id="zipcode-input" type="text" placeholder="Zip Code" />
+    <button
+      id="add-building-button"
+      onclick="createBuilding(
+        document.getElementById('building-name-input').value, 
+        document.getElementById('street-input').value, 
+        document.getElementById('number-input').value, 
+        document.getElementById('zipcode-input').value)"
+    >
+      Create Building
+    </button>
+    <br />
+    <h3>ADD FLOORS AND DOORS:</h3>
+    <input
+      id="add-floors-and-doors-building-input"
+      type="text"
+      placeholder="Name of building..."
+    />
+    <input
+      id="number-of-floors-input"
+      type="text"
+      placeholder="number of floors"
+    />
+    <input
+      id="number-of-doors-input"
+      type="text"
+      placeholder="number of doors"
+    />
+    <button
+      id="add-floors-and-doors-button"
+      onclick="addFloorsAndDoors(
+        document.getElementById('add-floors-and-doors-building-input').value,
+        document.getElementById('number-of-floors-input').value, 
+        document.getElementById('number-of-doors-input').value)"
+    >
+      Add Floors And Doors
+    </button>
+    <br />
+    <h3>ADD OWNER:</h3>
+    <input
+      id="owner-building-input"
+      type="text"
+      placeholder="Name of building..."
+    />
+    <input id="owner-name-input" type="text" placeholder="owner name" />
+    <input id="owner-floor-input" type="text" placeholder="owner floor" />
+    <input id="owner-door-input" type="text" placeholder="owner door" />
+    <button
+      id="add-owner-button"
+      onclick="addOwner(
+        document.getElementById('owner-building-input').value,
+        document.getElementById('owner-name-input').value, 
+        document.getElementById('owner-floor-input').value, 
+        document.getElementById('owner-door-input').value)"
+    >
+      Add Owner
+    </button>
+    <br />
+    <h3>SHOW FLOORS:</h3>
+    <input id="building-input" type="text" placeholder="Name of building..." />
+    <button
+      id="show-floors-button"
+      onclick="showFloors(document.getElementById('building-input').value)"
+    >
+      Show Floors
+    </button>
+    <ul></ul>
+    <script type="text/javascript" src="6.7.js"></script>
+  </body>
+</html>

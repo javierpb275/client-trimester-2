@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>7.3</title>
+    <script type="text/javascript" src="7.3.js"></script>
+  </head>
+  <body>
+    <h1>exercise 7.3</h1>
+    <h3>CREATE BUILDING:</h3>
+    <input
+      id="building-name-input"
+      type="text"
+      placeholder="Name of building..."
+    />
+    <input id="street-input" type="text" placeholder="Street" />
+    <input id="number-input" type="text" placeholder="Number" />
+    <input id="zipcode-input" type="text" placeholder="Zip Code" />
+    <button id="add-building-button">Create Building</button>
+    <br />
+    <h3>ADD FLOORS AND DOORS:</h3>
+    <input
+      id="add-floors-and-doors-building-input"
+      type="text"
+      placeholder="Name of building..."
+    />
+    <input
+      id="number-of-floors-input"
+      type="text"
+      placeholder="number of floors"
+    />
+    <input
+      id="number-of-doors-input"
+      type="text"
+      placeholder="number of doors"
+    />
+    <button id="add-floors-and-doors-button">Add Floors And Doors</button>
+    <br />
+    <h3>ADD OWNER:</h3>
+    <input
+      id="owner-building-input"
+      type="text"
+      placeholder="Name of building..."
+    />
+    <input id="owner-name-input" type="text" placeholder="owner name" />
+    <input id="owner-floor-input" type="text" placeholder="owner floor" />
+    <input id="owner-door-input" type="text" placeholder="owner door" />
+    <button id="add-owner-button">Add Owner</button>
+    <br />
+    <h3>SHOW FLOORS:</h3>
+    <input id="building-input" type="text" placeholder="Name of building..." />
+    <button id="show-floors-button">Show Floors</button>
+    <button id="show-buildings-button">Show Buildings</button>
+    <br /><br />
+    <button id="r-button-build-array-button">
+      Generate List of Buildings with Radio Button
+    </button>
+    <label for="streets">Choose a street:</label>
+    <select name="streets" id="streets"></select>
+    <p id="building-message"></p>
+    <p id="f-d-message"></p>
+    <p id="owner-message"></p>
+
+    <div id="buildings-container"></div>
+    <div id="building-list-container"></div>
+  </body>
+</html>
